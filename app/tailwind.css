@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600&family=Stint+Ultra+Expanded&family=Ultra&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: #c44606; /* WebKit/Blink Browsers */
+  color: #fbede6;
+}
+::-moz-selection {
+  background: #c44606; /* Gecko Browsers */
+  color: #fbede6;
+}
+
+:focus-visible {
+  outline: #e322d9 solid 3px;
+  outline-offset: 3px;
+  outline-style: dotted;
+}

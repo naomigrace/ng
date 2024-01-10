@@ -1,0 +1,145 @@
+export const resume = {
+  name: "NG (Naomi-Grace) Panlaqui",
+  summary:
+    "Building websites front-to-back in Javascript. Ex-government contractor looking for meaningful work that helps people and/or our planet.",
+  contact: {
+    email: "naomigracep@gmail.com",
+    phone: "+1 (703) 380-8022",
+    github: "https://www.github.com/naomigrace",
+    linkedin: "https://www.linkedin.com/in/naomi-grace-panlaqui-b6314999/",
+  },
+  skills: {
+    Languages: ["javascript", "typescript", "html", "css", "python"],
+    "Libraries & Frameworks": [
+      "node",
+      "react",
+      "next.js",
+      "remix",
+      "tailwind",
+      "cypress",
+      "storybook",
+    ],
+    "Tools & Platforms": [
+      "docker",
+      "aws",
+      "azure",
+      "git",
+      "github",
+      "github actions",
+      "gitlab",
+      "vercel",
+      "heroku",
+      "figma",
+    ],
+    Other: [
+      "REST apis",
+      "graphql apis",
+      "schema form generation",
+      "accessibility",
+      "internationalization/localization",
+      "component library creation and maintenance",
+    ],
+    Soft: [
+      "breaking down complex topics",
+      "short-and-focused presentations/demos",
+      "dealing with ambiguity",
+      "mentorship",
+      "work-load balancing",
+      "prioritization/scrum mastering",
+    ],
+  },
+  education: [
+    {
+      name: "University of Virginia",
+      attained: "Bachelor of Computer Science, Minor in Anthropology",
+    },
+  ],
+  certifications: [
+    {
+      name: "508 Accessibility Testing Certificate - DHS Trusted Tester TTv5",
+    },
+  ],
+  interests: [
+    "cities",
+    "nature",
+    "piano and guitar",
+    "traveling",
+    "music discovery",
+  ],
+  experience: [
+    {
+      pos: 0,
+      date: "January 2021 - Present",
+      title: "Cofounder & Full Stack Developer",
+      company: "DC Music Live",
+      description: [
+        "Developed and deployed a client-facing website using Next.js.",
+        "Managed DevOps activities, including mobile deployments, AWS deployments, and nginx server management.",
+        "Solved initial data quality issues by implementing data cleaners for version 1.0.",
+        "Created a React Native prototype for the initial release 1.0 and designed a React Native Expo prototype app for the redesign 2.0.",
+      ],
+    },
+
+    {
+      pos: 1,
+      date: "March 2021 - March 2022",
+      title: "Lead Developer",
+      company: "Booz Allen Hamilton",
+      contract: "Job Corps",
+      description: [
+        "Expanded a schema-based multilingual single-form generator into a robust multi-page form generator.",
+        "Led a team of 6 developers to successfully release a modernized interest form for Job Corps in December 2022.",
+        "Directed a team of 5 developers in building a Dashboard for Job Corps applicants, coordinating closely with various teams including requirements, design and UX, devops, test, marketing, and project leads.",
+      ],
+    },
+    {
+      pos: 2,
+      date: "December 2021 - April 2022",
+      title: "Full Stack Developer",
+      company: "Booz Allen Hamilton",
+      contract: "Office of Federal Contract Compliance Programs (OFCCP)",
+      description: [
+        "Developed 3 Node.js microservices for the complaint ingestion and processing system, achieving over 70% code coverage on intake and processing repositories.",
+        "Utilized AWS SQS for efficient calls in the complaint-intake and complaint-processing microservices.",
+        "Built a schema-based multilingual form generator for complaint ingestion.",
+      ],
+    },
+    {
+      pos: 3,
+      date: "September 2021 - December 2021",
+      title: "Full Stack Developer",
+      company: "Booz Allen Hamilton",
+      contract: "Office of Foreign Labor Certification (OFLC)",
+      description: [
+        "Singularly built and implemented Next.js solutions for internationalization in the re-release of seasonaljobs.dol.gov within a tight 3-month timeframe.",
+        "Significantly improved Google Lighthouse Performance metrics, reducing bounce rate (6% from 70%) and increasing overall site engagement.",
+        "Optimized React codebase size (5k from 15k) and reduced code smells (<5 from 250+) in the React sonarqube analysis.",
+      ],
+    },
+    {
+      pos: 4,
+      date: "March 2020 - September 2021",
+      title: "Full Stack Developer",
+      company: "Booz Allen Hamilton",
+      contract: "Benefits.gov",
+      description: [
+        "Enhanced 508 accessibility reporting by creating an accessibility portal with a DHS Trusted Tester TTv5 reporting tool.",
+        "Developed 3 Node.js microservices for Benefits.gov, including a Microsoft Azure Chatbot backend, an OIDC/Login.gov backend, and a GraphQL/Cosmos storage backend.",
+        "Built an accessible paginated table component for the User Dashboard Release.",
+      ],
+    },
+    {
+      pos: 5,
+      date: "August 2018 - March 2020",
+      title: "Front-End Developer",
+      company: "Booz Allen Hamilton",
+      contract: "Office of Foreign Labor Certification (OFLC)",
+      description: [
+        "Led a team of junior developers in front-end development for two H-2B visa application forms on flag.dol.gov to meet a tight go-live timeline on flag.dol.gov.",
+        "Architected a schema-based form generator to improve form-filling performance and simplify development and debugging for H-2A and LCA visa applications on flag.dol.gov.",
+        "Developed core functionality for chained conditional logic on a server-side validation package to meet complex client requirements.",
+        "Refactored an existing code base to successfully deploy seasonaljobs.dol.gov.",
+      ],
+    },
+  ],
+};
