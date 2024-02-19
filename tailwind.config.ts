@@ -11,7 +11,6 @@ export default {
         serif: ["Stint Ultra Expanded"],
       },
       colors: {
-        // primary: "#0b361f",
         primary: "#041f11",
         paper: "#fbede6",
         highlighter: "#afdb48",
